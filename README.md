@@ -9,12 +9,12 @@
 
 ---
 
-## 📌 Descripción del Proyecto
+## Descripción del proyecto
 Implementación de una infraestructura virtualizada basada en 3 máquinas virtuales para garantizar alta disponibilidad y tolerancia a fallos en un sitio web. El sistema distribuye las peticiones de red de forma equitativa mediante un balanceador de carga con Nginx y resuelve el acceso por dominio local utilizando Dnsmasq.
 
 ---
 
-## 🌐 Arquitectura de Red e Infraestructura
+## Arquitectura de Red e Infraestructura
 
 | VM | Nombre de Host | Rol en la Red | Dirección IP | Servicios / Software |
 | :--- | :--- | :--- | :--- | :--- |
@@ -26,7 +26,7 @@ Implementación de una infraestructura virtualizada basada en 3 máquinas virtua
 
 ---
 
-## 🚀 Historias de Usuario (Sprint Backlog)
+## Historias de Usuario (Sprint Backlog)
 - [x] **HU01:** Configuración de 3 VMs e infraestructura de red con IPs estáticas (`nmcli`).
 - [x] **HU02:** Instalación de Apache en WEB1 y WEB2 con páginas web de prueba identificables.
 - [x] **HU03:** Configuración del balanceador de carga Nginx con algoritmo *Round-Robin*.
@@ -36,7 +36,7 @@ Implementación de una infraestructura virtualizada basada en 3 máquinas virtua
 
 ---
 
-## ⚙️ Pasos Principales de Configuración
+## Pasos Principales de Configuración
 
 ### 1. Configuración de Red en las VMs
 Se configuraron las interfaces de red internas utilizando NetworkManager (`nmcli`) para establecer direcciones IP estáticas en el segmento `192.168.1.0/24`.
